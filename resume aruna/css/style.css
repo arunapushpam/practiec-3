@@ -1,0 +1,341 @@
+.container{
+	width:80%;
+	margin:auto;
+}
+.resume{
+	width:100%;
+	margin-top:30px;
+	padding-bottom:100px;
+	box-shadow:2px 0px 3px 0px rgb(0 0 0/15%);
+}
+.name{
+	width:100%;
+	text-align:center;
+}
+.name h1{
+	font-size:20px;
+	margin-top:20vh;
+}
+.name p{
+	font-size:18px;
+}
+.name p a{
+	text-decoration:none;
+}
+
+	
+@media(min-width:360px){
+	.name h1{
+		font-size:15px;
+	}
+	.name p {
+		font-size:12px
+		
+	}
+	
+}
+@media(min-width:768px){
+	.name h1{
+		font-size:20px;
+	}
+	.name p {
+		font-size:18px
+		
+	}
+	
+}
+@media(min-width:992px){
+	.name h1{
+		font-size:25px;
+	}
+	.name p {
+		font-size:23px
+		
+	}
+	
+}
+@media(min-width:1200px){
+	.name h1{
+		font-size:33px;
+	}
+	.name p {
+		font-size:23px
+		
+	}
+	
+}
+
+.career{
+	width:100%;
+	border:;
+}
+.careers{
+	width:100%;
+	border:;
+}
+.careers h1{
+	font-size:20px;
+	margin-top:5vh;
+}
+.careers p{
+	font-size:15px;
+}
+.careers h2{
+	font-size:30px;
+}
+.careers span{
+	color:#B9BBB6;
+}
+.skills{
+	width:100%;
+
+}
+.stack{
+	width:100%;
+	display:flex;
+}
+.stack1 {
+	width:70%;
+	border:1px solid black;
+}
+
+
+.stack1 p{
+	font-size:20px;
+}
+.stack1 h2{
+	font-size:25px;
+}
+.stack2 {
+	width:30%;
+	text-align:center;
+	border:1px solid black;
+}
+.stack2 p{
+	font-size:20px;
+	margin-top:7vh;
+}
+.attained{
+	width:100%;
+	border:1px solid black;
+	
+}
+ul li{
+	font-size:20px;
+}
+.core{
+	width:100%;
+	margin-top:70px;
+	padding-top:50px;
+	padding-bottom:70px;
+	box-shadow:0 1px 3px 1px rgb(0 0 0/15%);
+	
+	
+}
+.technical{
+		width:100%;
+		display:flex;
+		border:1px solid black;
+	}
+	.tech1{
+		width:50%;
+		border:1px solid black;
+	}
+	.tech1 p{
+		font-size:20px;
+		color:blue
+	}
+	.declaration{
+		width:100%;
+		height:100vh;
+		margin-top:50px;
+		padding-top:100px;
+		box-shadow:0 1px 3px 1px rgb(0 0 0/15%);
+	}
+	.projects{
+		
+		width:100%;
+		border:1px solid black;
+	}
+	.projects h2{
+		font-size:20px;
+	}
+	.projects p{
+		font-size:18px;
+	}
+	.projects p a{
+		text-decoration:none;
+	}
+	.talentz{
+		width:100%;
+		margin-top:10vh;
+	}
+	
+@media(min-width:360px){
+	.careers h1{
+		font-size:15px;
+	}
+	.careers p {
+		font-size:13px
+		
+	}
+	.careers h2{
+	font-size:17px;
+	}
+	.stack1 p {
+		font-size:13px
+		
+	}
+	.stack1 h2{
+	font-size:17px;
+	}
+	
+	ul li{
+	font-size:10px;
+	
+	}
+	.stack2 p{
+	font-size:10px;
+	}
+	.tech1 p{
+	font-size:13px;
+	}
+	.tech1 h3{
+	font-size:15px;
+	}
+	.projects h2{
+		font-size:13px;
+	}
+	.projects p{
+		font-size:13px;
+	}
+	
+@media(min-width:768px){
+	.careers h1{
+		font-size:20px;
+	}
+	.careers p {
+		font-size:15px
+		
+	}
+	.careers h2{
+	font-size:20px;
+	}
+	.stack1 p {
+		font-size:15px
+		
+	}
+	.stack1 h2{
+	font-size:20px;
+	}
+	.stack2 h2{
+	font-size:20px;
+	}
+	
+	ul li{
+	font-size:20px;
+	}
+	.stack2 p{
+		font-size:15px
+	}
+	.tech1 p{
+	font-size:15px;
+	}
+	.tech1 h3{
+	font-size:15px;
+	}
+	.projects h2{
+		font-size:17px;
+	}
+	.projects p{
+		font-size:17px;
+	}
+}
+@media(min-width:992px){
+	.careers h1{
+		font-size:25px;
+	}
+	.careers p {
+		font-size:20px
+		
+	}
+	.careers h2{
+	font-size:25px;
+	}
+	.stack1 p {
+		font-size:20px
+		
+	}
+	.stack1 h2{
+	font-size:25px;
+	}
+	.stack2 h2{
+	font-size:25px;
+	}
+	ul li{
+	font-size:23px;
+	}
+	.tech1 p{
+		font-size:px;
+	}
+	.stack2 p {
+		font-size:17px
+		
+	}
+	.tech1 p{
+	font-size:20px;
+	}
+	.tech1 h3{
+	font-size:20px;
+	}
+	.projects h2{
+		font-size:20px;
+	}
+	.projects p{
+		font-size:20px;
+	}
+	
+}
+
+@media(min-width:1200px){
+	.careers h1{
+		font-size:33px;
+	}
+	.careers p {
+		font-size:25px
+		
+	}
+	.careers h2{
+	font-size:33px;
+	}
+	.stack1 p {
+		font-size:25px
+		
+	}
+	.stack1 h2{
+	font-size:33px;
+	}
+	.stack2 h2{
+	font-size:33px;
+	}
+	.stack2 p {
+		font-size:25px
+		
+	}
+	ul li{
+	font-size:20px;
+	
+	}
+	.tech1 p{
+	font-size:23px;
+	}
+	.tech1 h3{
+	font-size:23px;
+	}
+	.projects h2{
+		font-size:23px;
+	}
+	.projects p{
+		font-size:23px;
+	}
+}
