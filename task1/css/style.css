@@ -1,0 +1,24 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.header p{
+	color:blue;
+	text-align:center;
+	margin-top:5rem;
+}
+.header h3{
+	color:#061e66;
+	text-align:center;
+}
+.card img{
+	height:40vh;
+}
+.card-body h5{
+	color:#00185a;
+}
+.card-body p{
+	color:#7d6868;
+}
