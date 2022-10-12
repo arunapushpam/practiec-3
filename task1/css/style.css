@@ -18,3 +18,14 @@
 .card-body p{
 	color:#7d6868;
 }
+.col img{
+	width:100%;
+}
+.col iconify-icon{
+	font-size:1rem;
+	color:blue;
+	background-color:skyblue;
+}
+.col p{
+		font-size:1	rem;
+}
