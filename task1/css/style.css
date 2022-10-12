@@ -1,20 +1,16 @@
-*
-{
-margin:0;
-padding:0;
-box-sizing:border-box;
+.header{
+	text-align:center;
+	margin-top:3rem;
 }
 .header p{
 	color:blue;
-	text-align:center;
-	margin-top:5rem;
 }
 .header h3{
+	font-size:2.3rem;
 	color:#061e66;
-	text-align:center;
 }
-.card img{
-	height:40vh;
+.row{
+	margin-top:20px;
 }
 .card-body h5{
 	color:#00185a;
