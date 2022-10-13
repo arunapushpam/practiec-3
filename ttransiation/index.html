@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+	.trans{
+		width:300px;
+		height:150px;
+		background:red;
+		transition:width 3s;
+		}
+	.trans:hover{
+		width:500px;
+		background-color:yellow;
+		}
+	.delay{
+		width:300px;
+		height:150px;
+		background:SlateBlue;
+		transition-property:width,height;
+		transition-duration:5s;
+		transition-delay: 2s;
+		}
+	.delay:hover{
+		width:500px;
+		height:400px;
+		}
+	.time{
+		width:200px;
+		height:150px;
+		background:pink;
+		transition-property:width,height;
+		transition-duration:5s;
+		 transition-timing-function: ease;
+		}
+	.time:hover{
+		width:500px;
+		}
+	.time1{
+		width:200px;
+		height:150px;
+		background:green;
+		transition-duration:5s;
+		transition-timing-function:cubic-bezier(0.1, 0.0, 1.0, 0.1);
+		}
+	.time1:hover{
+		width:500px;
+		}
+</style>
+<body>
+		<h3>transition</h3>
+		<p>Transition-delay</p>
+		<p>Transition-duration</p>
+		<p>Transition-property</p>
+		<p>Transition-timing-function</p>
+	
+		<h3>transition</h3>
+		<div class="trans">
+			<h3 style="text-align:center;">transition</h3>
+		</div>
+		
+			<h3>transition-delay  transition-duration  Transition-property</h3>
+			<div class="delay">
+				<p>Transition-delay</p>
+			</div>
+			
+			
+			<h3>transition-timing-function</h3>
+			<p>ease - specifies a transition effect with a slow start, then fast, then end slowly</p>
+			<p>linear - specifies a transition effect with the same speed from start to end</p>
+			<p>ease-in - specifies a transition effect with a slow start</p>
+			<p>ease-out - specifies a transition effect with a slow end</p>
+			<p>ease-in-out - specifies a transition effect with a slow start and end</p>
+			
+			<!-- 
+			<h3>transition-timing-function</h3>
+			<p>linear</p>
+			<p>ease</p>
+			<p>ease-in</p>
+			<p>ease-out</p>
+			<p>ease-in-out</p>
+			<p></p>
+			 -->
+			<div class="time">
+			</div>
+			
+			
+			<h3>Cubic</h3>
+			<div class="time1">
+			</div>
+			
+</body>
