@@ -1,0 +1,54 @@
+.pricing{
+	text-align:center;
+}
+.pricing p{
+	color:blue;
+	}
+.pricing h1{
+	color:#061e66;
+}
+
+
+.card{
+	padding:2rem;
+	width:24%;
+	align-items:center;
+	margin:auto;
+	border:1px solid black;
+	text-align:center;
+}
+.card p{
+	font-size:1.5rem;
+	color:aqua;
+	
+}
+.card h3{
+	
+	color:red;
+}
+.card sub{
+	font-size:1.7rem;
+	color:black;
+	font-weight:700;
+	
+}
+.card span{
+	font-size:1.2rem;
+	color:gray;
+	
+}
+ul li {
+	list-style:none;
+	margin-top:2rem;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	width:50%;
+	height:27%;
+	
+	padding:.7rem;
+	margin-top:2rem;
+	display:inline;
+	border:1px solid blue;
+	border-radius:3rem;
