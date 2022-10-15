@@ -14,7 +14,8 @@
 	width:24%;
 	align-items:center;
 	margin:auto;
-	border:1px solid black;
+	box-shadow:0 0 12px #8888884a;
+	border:1px solid white;
 	text-align:center;
 }
 .card p{
@@ -39,7 +40,7 @@
 }
 ul li {
 	list-style:none;
-	margin-top:2rem;
+	margin-top:1.5rem;
 	text-align:center;
 }
 a{
