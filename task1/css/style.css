@@ -6,7 +6,7 @@
 	color:blue;
 }
 .header h3{
-	font-size:2.3rem;
+	font-size:2rem;
 	color:#061e66;
 }
 .row{
@@ -23,9 +23,12 @@
 }
 .col iconify-icon{
 	font-size:1rem;
-	color:blue;
-	background-color:skyblue;
 }
 .col p{
-		font-size:1	rem;
+		font-size:1rem;
 }
+.column col{
+	background-color:yellow;
+}
+
+	

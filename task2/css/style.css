@@ -7,15 +7,15 @@
 .pricing h1{
 	color:#061e66;
 }
-
-
+.row{
+	padding:2rem;
+}
 .card{
 	padding:2rem;
-	width:24%;
+	width:100%;
 	align-items:center;
 	margin:auto;
 	box-shadow:0 0 12px #8888884a;
-	border:1px solid white;
 	text-align:center;
 }
 .card p{
@@ -38,6 +38,9 @@
 	color:gray;
 	
 }
+.card img{
+	width:100%;
+}
 ul li {
 	list-style:none;
 	margin-top:1.5rem;
@@ -45,11 +48,10 @@ ul li {
 }
 a{
 	text-decoration:none;
-	width:50%;
-	height:27%;
-	
+	width:70%;
+	height:3%;
 	padding:.7rem;
 	margin-top:2rem;
 	display:inline;
 	border:1px solid blue;
-	border-radius:3rem;
+	border-radius:2rem;
