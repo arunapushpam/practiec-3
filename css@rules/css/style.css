@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url("../import/import.css");
+.container{
+	width:90%;
+	margin:0;
+	padding:0;
+}
+
+.key{
+	height:150px;
+	width:400px;
+	position:relative;
+	border-radius:1rem;
+	animation:move 7s infinite;
+}
+@keyframes move {
+  from{
+	  height:150px;
+	  width:300px;
+	  left:300px;
+	  color:white;
+	  background-color:red;
+	}
+	to{
+		top:100px;
+	  background-color:blue;
+	  color:white;
+		
+	}
+	
+}
+
+.imp{
+	margin-top:100px;
+}
+.imp p,h3{
+	font-size:30px !important;
+	font-size:50px;
+}
+@font-face{
+	font-family:Roboto;
+	src:url("../font/Roboto.ttf");
+}
+.font p{
+	font-family:Roboto;
+}
+
+
+
+
+
