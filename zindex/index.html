@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>z index</title>
+<link rel="stylesheet" href="css/style.css">
+	<style>
+		.overflow{
+			width:300px;
+			height:150px;
+			background-color:yellow;
+			overflow:visible;
+			
+		}
+		.hidden{
+			width:300px;
+			height:150px;
+			background-color:yellow;
+			overflow:hidden;
+			margin-top:100px;
+			
+		}
+		.auto{
+			width:300px;
+			height:150px;
+			background-color:yellow;
+			overflow:auto;
+			margin-top:30px;
+			
+		}
+		.scroll{
+			width:100px;
+			height:190px;
+			background-color:yellow;
+			overflow:scroll;
+			margin-top:30px;
+			
+		}
+		.img{
+			position:absolute;
+			margin-left:70px;
+			z-index:0;
+		}
+		.picture{
+			position:relative;
+			z-index:1;
+			
+		}
+	</style>
+</head>
+<body>
+	 <h3>z-index</h3>
+	<h3>overflow</h3>
+	<p>visible</p>
+	<p>Hidden</p>
+	<p>clip</p>
+	<p>auto</p>
+	<p>scroll</p>
+	
+	<div class="overflow">
+		<h3>visible</h3>
+		<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+	</div>
+	<div class="hidden">
+		<h3>Hidden</h3>
+		<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+	</div>
+	<div class="auto"> 
+		<h3>auto</h3>
+		<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+	</div>
+	
+	<div class="scroll">  
+		<h3>scroll</h3>
+		<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magna Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+	</div>
+	<h3>z index</h3> 
+		<div class="img">
+			<img src="image/beautiful.webp" width="300px" height="200px;">
+		</div>
+		<div class="picture">
+			<img src="image/download.jfif" width="150px" height="150px";>
+		</div>
+
+</body>
+</html>
