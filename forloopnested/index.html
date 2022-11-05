@@ -12,16 +12,121 @@
 			for(j=1;j<=i;j++){
 				document.write(i);
 				}
-				document.write("<br>")
+				document.write("<br>");
 			}
-		<!-- for(i=A;i=5;i++){
-			<!-- for -->(j=1; j<=i; j++){
-				<!-- document.write(i); -->
-			<!-- } -->
-			<!-- document.write("<br>") -->
-		<!-- } --> -->
+			document.write("<br>");
+			
+			
+			
+		for(i=5;i>=1;i--) { 
+			 for(j=1;j<=i;j++){ 
+				document.write(j); 
+				} 
+				document.write("<br>");
+			} 
+			
+			document.write("<br>");
+			
+		for(a=65; a<=69; a++) {
+			for(b=65; b<=a; b++){
+				document.write (String.fromCharCode(b));
+			}
+			document.write("<br>");
+		}
+		document.write("<br>");
+		
+		
+		
+		for (a=65; a<=73; a++){
+			for (b=65; b<=a; b++){
+				document.write (String.fromCharCode(b));
+			}
+			document.write("<br>");
+		}
+		document.write("<br>");
+		
+		
+		
+		//<!-- 1. number positive or not -->
+		let number=7;
+		if (number>0){ 
+			document.write ("number positive");
+		}
+		else if(number==0){
+			document.write("zero");	
+		}
+		else{
+			document.write ("number is negative");
+		}
+		document.write("<br>");
+		
+		
+		//<!-- 2. Program to check number is greater than 10 -->
+		let x=15;
+		if (x>10){
+			document.write("grater than");
+		}
+		else{
+			document.write("lessthan");
+		}
+		document.write("<br>");
+		
+		
+		//<!-- 3. number odd or even -->
+		let v=prompt("Enter your number");
+		if(v%2==0){
+		document.write("even");
+		}
+		else{
+			document.write("odd");
+		}
+		document.write("<br>");
+		
+	//<!--  4. grade based on marks of a student -->
+	 let mark=5;
+	 if(mark>=7 && mark<=10){
+	    document.write("grade:A");
+	 }
+	 else if(mark>=6 && mark<=8){
+	    document.write("grade:B");
+     }
+	 else if(mark<=5 && mark>=3){
+	    document.write("grade:C");
+     }
+	 else{
+	    document.write("no grade");
+	 }
+	 document.write("<br>");
 		
 			
+		//<!-- 5. marriage eligiblity -->
+		let age=15;
+		if (age>=18){
+			document.write("eligible");
+		}
+		else{
+			document.write("not eligible");
+		}
+		document.write("<br>")
+		//<!-- 6.  number is divisible by 5 -->
+		let z=prompt("Enter your number")
+		if(z%5==0){
+		document.write("divisible by 5");
+		}
+		else{
+			document.write("not divisible");
+		}
+		document.write("<br>");
+		<!-- 7. number multiple 7 -->
+		let num=9
+		if(num%7==0){
+			document.write("multiple 7")
+		}
+		else{
+			document.write("not mulitiple 7")
+		}
+	
+		 
 	</script>
 </body>
 </html>
