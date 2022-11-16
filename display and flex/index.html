@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>Display and flex</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	.head h1{
+		display:none;
+		}
+	.head1 p{
+		display:inline;
+		color:red;
+		
+		}
+	.head2 span{
+		display:block;
+		color:red;
+		}
+	.head3 p{
+		display: inline-block;
+		color:red;
+		height:50px;
+		width:170px;
+		background-color:pink;
+		padding:3px;
+
+		}
+	
+	.dir{
+		height:300px;
+		width:300px;
+		display:flex;
+		flex-direction:column-reverse;
+		border:1px solid gray;
+		}
+	.dir1{
+		height:30px;
+		width:40px;
+		border:1px solid black;
+		}
+	.flexgrow{
+		height:300px;
+		width:500px;
+		display:flex;
+		border:1px solid gray;
+	}
+	.grow{
+		height:300px;
+		width:50px;
+		}
+	.flexshrink{
+		height:200px;
+		width:500px;
+		display:flex;
+		border:1px solid gray;
+	}
+	.shrink{
+		height:200px;
+		width:150px;
+		}
+	.flexwrap{
+		height:400px;
+		width:100%;
+        display:flex;
+		flex-wrap:wrap;
+		border:1px solid gray;
+	}
+	.wrap{
+		height:200px;
+		width:30%;
+		}
+	.flexflow{
+		height:400px;
+		width:100%;
+        display:flex;
+		flex-flow:column-reverse wrap;
+		border:1px solid gray;
+	}
+	.flow{
+		height:200px;
+		width:30%;
+		}
+	.flexbasis{
+		width:100%;
+        display:flex;
+		border:1px solid gray;
+		
+	}
+	.basis{
+		height:200px;
+		flex-basis:100px;
+		}
+</style>
+</head>
+<body>
+		<div class="head">
+			<h3>display none</h3>
+			<p>This article is about Earth's <h1>natural satellite</h1>. For moons in general, see Natural satellite</p>
+		</div>
+		<div class="head1">
+			<h3>display inline</h3>
+			This article is about Earth'<p>snatural satellite</p>. For moons in general, see Natural satellite
+		</div>
+		<div class="head2">
+			<h3>display block</h3>
+			This article is about Earth'<span>snatural satellite</span>. For moons in general, see Natural satellite
+		</div>
+		<div class="head3">
+			<h3>display inline-block</h3>
+			This article is about Earth'<p>snatural satellite</p>. For moons in general, see Natural satellite
+		</div>
+		
+		<h1>flex property</h1>
+			<p>flex</p>
+			<p>flex-basis</p>
+			<p>flex-direction</p>
+			<p>flex-flow</p>
+			<p>flex-grow</p>
+			<p>flex-shrink</p>
+			<p>flex-wrap</p>
+		
+		<h3>flex-direction</h3>
+		<div class="dir">
+			<div class="dir1" style="background-color:red">a</div>
+			<div class="dir1" style="background-color:pink">b</div>
+			<div class="dir1" style="background-color:blue">c</div>
+			<div class="dir1" style="background-color:green">d</div>
+			<div class="dir1" style="background-color:yellow">e</div>
+			<div class="dir1" style="background-color:purple">f</div>
+		</div>
+		<h3>flex-grow</h3>
+		<div class="flexgrow">
+			<div class="grow"  style="background-color:red; flex-grow:1">
+			</div>
+			<div class="grow"  style="background-color:blue; flex-grow:3">
+			</div>
+			<div class="grow"  style="background-color:green; flex-grow:3">
+			</div>
+			<div class="grow"  style="background-color:yellow; flex-grow:5">
+			</div>
+
+		</div>
+		
+		
+		<h3>flex-shrink</h3>
+		<div class="flexshrink">
+			<div class="shrink"  style="background-color:red;flex-shrink:5">
+			</div>
+			<div class="shrink"  style="background-color:blue; flex-shrink:5">
+			</div>
+			<div class="shrink"  style="background-color:green;">
+			</div>
+			<div class="shrink"  style="background-color:yellow;">
+			</div>
+
+		</div>
+		
+		<h3>flex-wrap</h3>
+		
+		<div class="flexwrap">
+			<div class="wrap"  style="background-color:red;">div 1
+			</div>
+			<div class="wrap"  style="background-color:blue";>div 2
+			</div>
+			<div class="wrap"  style="background-color:green;">div 3
+			</div>
+			<div class="wrap"  style="background-color:yellow;">div 4
+			</div>
+			<div class="wrap"  style="background-color:pink;">div 5
+			</div>
+		</div>
+		
+		
+		<h3>flex-flow</h3>
+		
+		
+		<div class="flexflow">
+			<div class="flow"  style="background-color:red;">div 1
+			</div>
+			<div class="flow"  style="background-color:blue";>div 2
+			</div>
+			<div class="flow"  style="background-color:green;">div 3
+			</div>
+			<div class="flow"  style="background-color:yellow;">div 4
+			</div>
+			<div class="flow"  style="background-color:pink;">div 5
+			</div>
+		</div>
+		
+		<h3>flex-basis</h3>
+		<div class="flexbasis">
+			<div class="basis"  style="background-color:red;">div1
+			</div>
+			<div class="basis"  style="background-color:blue; flex-basis:200px;">div2
+			</div>
+			<div class="basis"  style="background-color:green;">div3
+			</div>
+			<div class="basis"  style="background-color:yellow;">div4
+			</div>
+
+		</div>
+		
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                    
