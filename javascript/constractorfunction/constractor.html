@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>js constractor</title>
+<meta charset="UTF -8">
+<meta http-equiv="x-UA-Compatible" content="IE=edge">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<script>
+	<!-- function colling orgiment passing -->
+		function mobile(name,price,storage,color,model){
+			this.Name=name;
+			this.Price=price;
+			this.Storage=storage;
+			this.Color=color;
+			this.Model=model
+		}
+		let mob=new mobile("phone", 21000,"64 GB","red", "redme");
+		console.log(mob);
+		console.log(mob.Storage);
+		
+		
+		 function welcome(){
+			document.write("hii aruna");
+			document.write("<br>");
+		}
+		setInterval(welcome,3000);
+		 
+	</script>
+</body>
