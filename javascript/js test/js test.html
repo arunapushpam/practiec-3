@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>js constractor</title>
+<meta charset="UTF -8">
+<meta http-equiv="x-UA-Compatible" content="IE=edge">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<script>
+		const animal = {  
+		Name:'B.Aruna',
+		age:20,
+		date:'13.05.2000',
+		phone:8072864073
+	};  
+	const propertyNames=Object.keys(animal); 
+	console.log(propertyNames);  
+	<!-- 13  for loop even number prient-->
+	let array=[5,4,9,14,96]
+			 console.log(array.length);
+			 for(num=0; num<=array.length;num++){
+				if(array[num]%2==0){
+				console.log(array[num]);
+				}
+			 }
+	document.write("<br>")
+	<!-- 10 output te code -->
+	if (10 > 20 && 20>10){
+		console.log(10);
+	}
+	else{
+		console.log(20);
+	}
+	if (10 < 20 && 50%5==10){
+	console.log(30);
+	}
+	if (10 !==20 || 50/0==0){
+	console.log(40);
+	}
+	<!-- 17.  number is a decimal or integer -->
+	let number=prompt("enter a value")
+			if(number%2!=0){
+			console.log("decimel");
+			document.write("decimel");
+			}
+			else{
+	console.log("integer");
+	document.write("integer");
+			}
+			
+	
+<!-- 19. fix Buzz Cmhallenge -->
+for(a=1;a<=100;a++){
+			 if(a%3==0&&a%5==0){
+				console.log("fixbuzz");
+			 }
+			 else if(a%5==0){
+				console.log("buzz");
+			 }
+			 else if(a%3==0){
+				console.log("fix");
+			 }
+			 else{
+				console.log("not divisible number");
+			 }
+			 }
+			
+	</script>
+	
+</body>
