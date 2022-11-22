@@ -9,7 +9,7 @@
 .key{
 	height:150px;
 	width:400px;
-	position:relative;
+	position:relative; 
 	border-radius:1rem;
 	animation:move 7s infinite;
 }
