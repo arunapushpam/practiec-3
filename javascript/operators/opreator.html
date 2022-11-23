@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator</title>
+</head>
+<body>
+	<script>
+		<!-- arithmathic operator -->
+		<!-- addision -->
+		var a=5,b=10;
+		c=a+b;
+		console.log(c);
+		<!-- subtraction -->
+		var a=7, b=2;
+		c=a-b;
+		console.log(c);
+		<!-- multiplication -->
+		var x=10,y=5;
+		z=x*y;
+		console.log(z);
+		
+		<!-- division -->
+		z=x/y;
+		console.log(z);
+		
+		<!-- remainder -->
+		a=11,b=3;
+		c=a%b;
+		console.log(c);
+		
+		<!-- increment -->
+		a=10;
+		b=a++;<!-- (a=10,b=11); -->
+		c=a+b;
+		console.log(c);
+		
+		<!-- decrement -->
+		var a=5,b=a--;<!-- b=a,  5-1=4 -->
+		c=a+b;
+		console.log(c);
+		
+		<!-- exponentiation -->
+		
+		var a=5, b=4, c=a**b; <!-- 5 fore time 5*5*5*5 -->
+		console.log(c);
+		
+		<!-- Assignment operators -->
+		<!-- =  Equal to-->
+		var a=5;
+		console.log(a);
+		
+		<!-- +=  -->
+		var a=5
+		a+=3;<!-- a=a+3, 5+3=8; -->
+		console.log(a);
+		<!-- -= -->
+		n=3
+		n-=2;<!-- a=a-2 -->
+		console.log(n);
+		
+		<!-- logical operator -->
+		<!-- &, ||,! -->
+		<!-- and& -->
+		var a=10, b=5, c=7;
+		if(a>b& a>c){
+		console.log("a is larger");
+		}
+		else{
+			console.log("b,c small");
+		}
+		<!-- or || -->
+		var a=10, b=5, c=7;
+		if(a<b || b>c){
+		console.log("a is larger");
+		}
+		else{
+			console.log("b is small");
+		}
+		
+		<!-- not! -->  
+		var a=10, b=5, c=7;
+		if(a>b != a<c){
+		console.log("true");
+		}
+		else{
+			console.log("false");
+		}
+		
+		<!-- comparision operator -->
+		<!-- ==,===,<=,>=,<,>,!=, -->
+		
+		<!-- == value only -->
+		var a=20,b="20"
+		if (a==b){
+		console.log(true);
+		}
+		else{
+		console.log(false);
+		}
+		<!-- === value and data type -->
+		var l=20,j="20"
+		if (l===j){
+		console.log(true);
+		}
+		else{
+		console.log(false);
+		}
+		<!-- < less than -->
+		var a=5,b=4;
+		if (a<b){
+		console.log("a is larger");
+		}
+		else{
+		console.log("b is small");
+		}
+		<!-- <= less than equalto -->
+		var a=5,b=5;
+		if (a<=b){
+		console.log("a equal b");
+		}
+		else{
+		console.log("not");
+		}
+		
+		<!-- > greater than-->
+		var a=3,b=10;
+		if (a>b){
+		console.log("a is small");
+		}
+		else{
+		console.log("b is greater");
+		}
+		
+		<!-- >= Greater than equal to-->
+		var a=5,b=5;
+		if (a>=b){
+		console.log("a equal b");
+		}
+		else{
+		console.log("not equal");
+		}
+		
+		<!-- != not equal to -->
+		var x=30,y=20;
+		if (x!=y){
+		console.log(true);
+		}
+		else{
+		console.log(false);
+		}
+		
+		<!-- for loop --> 
+		var n=prompt("enter value");
+		for (i=1; i<=n; i++){
+		console.log(i);
+		}
+		
+		<!-- var a=5, b=3, c=1; -->
+		<!-- if(a>b && a>c){ -->
+		<!-- console.log("a is greater"); -->
+		<!-- } -->
+		<!-- else { -->
+		<!-- console.log("a is small"); -->
+		<!-- } -->
+
+		
+		<!-- var a=prompt("enter the value");b=("enter a vale"); c =prompt("enter a value"); -->
+		<!-- if (a>b){ -->
+		 <!-- if (a>c){ -->
+		<!-- console.log("a is greater"); -->
+		<!-- } -->
+		<!-- else{ -->
+		<!-- console.log("c is greater"); -->
+		<!-- } -->
+		<!-- } -->
+		<!-- else{ -->
+		<!-- if (b>c){ -->
+		<!-- console.log("b is greater"); -->
+		<!-- } -->
+		<!-- else{ -->
+		<!-- console.log("c is greater"); -->
+		<!-- } -->
+		<!-- } -->
+		
+		var a=prompt("enter the value")
+		var b=prompt("enter the value")
+		var c=prompt("enter the value")
+		if(a>b){
+			if(a>c){
+				console.log("A is greater")
+			}
+			else{
+			console.log("c is greater")
+			}
+		}	
+		else{
+			if(b>c){
+			console.log("b is greater")
+			}
+			else{
+			console.log("c is greater")
+			}
+		}
+		
+		
+	</script>   
+</body>
+</html>
