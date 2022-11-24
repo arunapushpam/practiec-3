@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js methods</title>
+  <style>
+	table,th,tr,td,thead{
+	border:2px solid black;
+	border-collapse:collapse;
+	}
+  </style>
+</head>
+<body>
+	<script>
+	</script>
+	<table>
+		<tr>
+			<th>methods</th>
+			<th>Defination</th>
+			<th>input</th>
+			<th>output</th>
+		</tr>
+		<tr>
+			<th>Filter method()</th>
+			<td>The filter() method creates a new array filled with elements that pass a test provided by a function.</td>
+			<td>let array[150,170,190,200,250,500,700,850]
+				value>=200;
+				
+			</td>
+			<td>[150,170,190,200]</td>
+			
+		</tr>
+		<tr>
+			<th>concat()</th>
+			<td>The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.</td>
+			<td>array1 =["one", "two", "three"];
+			array2 =[1,2,3]
+			</td>
+			result=array1.concat(array2)
+			</td>
+			<td>["one","two","three",1,2,3]</td>
+		</tr>
+		
+		
+		<tr>
+		<th>findIndex()</th>
+		<td>The findIndex() method returns the index (position) of the first element that passes a test.</td>
+		<td>array=[1,3,5,2,29]
+		value>=20;
+		</td>
+		<td>4</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Findlastindex()</th>
+			<td>The lastIndexOf() method returns the last index (position) of a specified value.</td>
+			<td> fruit = ["Orange","Apple","Mango","Apple","Banana","Apple","mango"];
+			 last=fruit.lastindexOf("Apple");
+			 
+			</td>
+			<td>5</td>
+		</tr>
+		
+		
+		<tr>
+			<th>length</th>
+			<td>The length property returns the length of a string.</td>
+			<td> num=[12,15,78,98,67,53,35];
+			value=num.length</td>
+			<td>6</td>
+		</tr>
+		
+		
+		<tr>
+			<th>revers</th>
+			<td>The reverse() method reverses the order of the elements in an array.</td>
+			<td>num=[13,25,1,34,35,65,78]</td>
+			value=num..reverse();
+			<td>78,65,35,34,1,25,13</td>
+		</tr>
+		
+		<tr>
+			<th>map</th>
+			<td>map() creates a new array from calling a function for every array element.</td>
+			<td>let food=[fish,prawn,mutton,chicken,briyani]
+				newarray=food.map(()){
+					return food.toUppercase();
+				})
+					
+				}
+			</td>	
+			<td>FISH,PRAWN,MUTTON,CHICKEN,BRIYANI</td>
+		</tr>
+		
+		<tr>
+			<th>PUSH</th>
+			<td>The push() method adds new items to the end of an array.</td>
+			<td>num = ["van", "auto", "car", "bike"];
+			num.push("train");
+</td>
+			<td>[van,auto,car,bike,train]</td>
+		</tr>
+		
+		
+		<tr>
+			<th>unshift</th>
+			<td>The unshift() method adds new elements to the beginning of an array.</td>
+			<td>dress = ["Midi Dress", "chudi", "anarcali",];
+				dress.unshift("legin", "top");
+</td>
+			<td>[legin,top,mididress,chudi,anarcali]</td>
+		</tr>
+		
+		<tr>
+			<th>pop</th>
+			<td>The pop() method removes (pops) the last element of an array.</td>
+			<td> car= ["Bmw", "Blitz", " Volvo", "audi"];
+			car.pop();</td>
+			<td>[bmw,blitz,volvo]</td>
+		</tr>
+		
+		
+		<tr>
+			<th>shift</th>
+			<td>The shift() method removes the first item of an array.</td>
+			<td>num = ["van", "auto", "car", "bike","train"];
+			value = num.shift();</td>
+			<td>[auto,car,bike,train]</td>
+		</tr>
+		
+		<tr>
+			<th>splice</th>
+			<td>The splice() method adds   array elements.</td>
+			<td>fruits = [ "Apple", "Orange" "Mango","Banana"]
+			fruits.splice(2,0 "Lemon", "Kiwi");
+			</td>
+			<td>[Apple, Orange,lemon,Kiwi, Mango, Banana]</td>
+		</tr>
+		
+		
+		<tr>
+				<th>toLocalTimeString()</th>
+				<td>The toLocaleString() method returns a Date object as a string, using locale settings.</td>
+				<td>date.LocalateTimeString()</td>
+				<td>5.13</td>
+		</tr>
+		
+		<tr>
+			<th>reduce</th>
+			<td>The reduce() method executes a reducer function for array element.executes a user-supplied"redicer" callback function on each element of the array</td>
+			<td>array=[1,4,6,3];
+			initalvalue=5;
+			reduce=array+initialvalue</td>
+			<td>19</td>
+		</tr>
+		
+		
+		<tr>
+			<th>foreach</th>
+			<td>The forEach() method calls a function for each element in an array.The forEach() method is not executed for empty elements.</td>
+			   <td>const colors=["red", "green", "yellow"];
+	  flowers.forEach(function(colors,index,array){
+	     console.log(colors);
+		 console.log(index);
+		 console.log(array);
+	  });</td>
+	   <td>red,0,(3)["red", "green", "yellow"]
+	       green,1,(3)["red", "green", "yellow"]
+		   yellow,2,(3)["red", "green", "yellow"]</td>
+	</tr>
+		</tr>
+		
+		<tr>
+			<th>toString()</th>
+			<td>The toString() method returns a string as a string. This method does not change the original string.</td>
+			<td>let array=["bike","car","auto"]
+	       let arr=array.toString();
+		   console.log(arr);</td>
+			<td>hi["bike","car","auto"]</td>
+		</tr>
+		
+		
+		<tr>
+			<th>slice</th>
+			<td></td>
+			 <td></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<th>indexof</th>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<th>constractor</th>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
