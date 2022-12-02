@@ -12,7 +12,7 @@
 		<section class="container">
 			<div class="calculator">
 				<div class="cals">
-					<input type="text" placeholder="0" id="num">
+					<input type="text" placeholder="0" id="val">
 					<button onclick="clickhear()">clear</button>
 					<button onclick="delate()">del</button>
 					<button onclick="display('%')">%</button>
@@ -31,7 +31,7 @@
 					<button onclick="display('+')">+</button>
 					<button onclick="display('.')" >.</button>
 					<button onclick="display('0')" >0</button>
-					<button onclick="calculate('') "class="equ" style="width:110px;
+					<button onclick="calculate('=') "class="equ" style="width:110px;
 					" >=</button>
 				</div>
 				
@@ -42,7 +42,28 @@
 
 	
 	<script>
-		let screen=document.getElementById("num")
+		let screen=document.getElementById("val")
+		
+		
+		function display(num){
+			screen.value+= num;
+		}
+		function calculate(){
+			try {
+				screen.value = eval(screen.value);	
+			}
+			catch (earror){
+				alert("invalied")
+			
+			}
+		}
+		
+		function clickhear(){
+			screen.value="";
+		}
+		function delate(){
+			screen.value=screen.value.slice(0,-1)
+		}
 	</script>
 </body>
 </html>

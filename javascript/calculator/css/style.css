@@ -55,8 +55,9 @@ input{
 	cursor:pointer;
 	
 }
-.equ button{
+.equ {
 	border-radius:40px;	
 	color:red;
 	/* margin-right:-30px;	 */
 }
+
