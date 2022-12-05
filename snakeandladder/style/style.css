@@ -1,0 +1,91 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;	
+}
+.page1{
+	border:1px solid black; 
+	position:relative;
+}
+.white{
+	float:left;
+	height:7rem;
+	width:7rem;
+	border:.1px solid black;
+	font-size:3rem;
+	/* font-weight:600; */
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.magenta{
+	float:left;
+	height:7rem;
+	width:7rem;
+	border:.1px solid black;
+	font-size:3rem;
+	/* font-weight:600; */
+	background-color:magenta;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.img{
+	position:absolute;
+	top:180px;
+	left:20px;
+	right:0;
+	bottom:;
+}
+.img1{
+	position:absolute;
+	top:500px;
+	left:px;
+	right:300px;
+	bottom:1;
+}
+.img2{
+	position:absolute;
+	top:80px;
+	left:px;
+	right:300px;
+	bottom:1;
+}
+.img3{
+	position:absolute;
+	top:230px;
+	left:330px;
+	right:0px;
+	bottom:0px;
+}
+.img4{
+	position:absolute;
+	top:500px;
+	left:500px;
+	right:10px;
+	bottom:px;
+}
+.img5{
+	position:absolute;
+	top:700px;
+	left:100px;
+	right:10px;
+	bottom:px;
+}
+.img6{
+	position:absolute;
+	top:25px;
+	left:600px;
+	right:0px;
+	bottom:px;
+}
+
+.img7{
+	position:absolute;
+	top:50rem;
+	left:550px;
+	right:0px;
+	bottom:200px;
+}
