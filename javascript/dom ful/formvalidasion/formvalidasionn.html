@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  </head>
+  <body>
+		<form>
+			<label>Bill Amount</label>
+			<input type="text" id="bill">
+			<label>tips<label>
+			<input type="text" id="tips">
+			<label>number</label> 
+			<input type="number" disabled id="tip">
+			<label>total</label> 
+			<input type="number" disabled id="totel">
+			<button type="button" id="btn">calculate</button>
+		</form>
+		
+		
+  <script>
+		var res=document.getElementById("btn")
+			res.addEventListener("click",myfunction)
+			function myfunction(){
+				var a=document.getElementById("bill").value;
+				var b=document.getElementById("tips").value;
+				var c=(b/100)*a;
+				document.getElementById("tip").value=c;
+				var cal=(parseInt(a)+parseInt(c));
+				document.getElementById("totel").value=cal;
+				if(a==="" || isNaN(a)){
+					alert("please enter the Bill Amount");
+				}
+				else if(b==="" || isNaN(b)){
+					alert("please enter the tips amount");
+				}
+					
+			}
+  </script>
+  </body>
+  </html>
